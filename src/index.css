@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+span {
+  font-family: inherit;
+  font-weight: inherit;
+}
+.amberShadow {
+  box-shadow: 3px 3px 2px rgb(251 191 36);
+}
+.amberShadow:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 2px rgb(251 191 36);
+}
+.bg-img {
+  background: url("./assets/bg-img.jpg") no-repeat center fixed;
+  background-size: cover;
+}
